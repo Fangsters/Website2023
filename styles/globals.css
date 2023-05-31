@@ -2047,12 +2047,12 @@ footer,
         flex-flow: column;
     } */
 
-  #claim-header a {
+  /* #claim-header a {
     width: 40%;
-  }
+  } */
 
   #claim-header input {
-    width: 40%;
+/*     width: 40%; */
     margin: 0 0.5rem;
   }
 
