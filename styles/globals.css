@@ -2079,7 +2079,7 @@ footer,
   }
   
   #tram {
-    image-rendering: auto;
+    image-rendering: crisp-edges;
   }
 
   /* a.section-button{
