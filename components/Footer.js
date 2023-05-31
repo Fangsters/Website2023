@@ -62,7 +62,9 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-        <Image id='poap' src='/images/fangster_footer.png' width={269} height={108} />
+          <a href="" target="_blank">
+            <Image id='poap' src='/images/fangster_footer.png' width={269} height={108} />
+          </a>
         <div id='copyright'>
           <h4>
             ©<span id="copyright-year">{year.getFullYear()} 
