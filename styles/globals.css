@@ -2077,6 +2077,10 @@ footer,
   .tram-img-area {
     left: unset !important;
   }
+  
+  #tram {
+    image-rendering: auto;
+  }
 
   /* a.section-button{
         padding: 1rem 3rem;
