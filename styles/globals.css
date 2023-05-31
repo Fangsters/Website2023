@@ -2079,7 +2079,7 @@ footer,
   }
   
   #tram {
-    image-rendering:optimizeQuality;
+    image-rendering: optimizeQuality;
   }
 
   /* a.section-button{
