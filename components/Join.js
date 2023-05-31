@@ -26,6 +26,12 @@ const Join = () => {
                     extraClasses='section-button'
                   />
 
+                  <FangBtn
+                    label="ART"
+                    linkTo="https://opensea.io/collection/fangganggoodies"
+                    extraClasses='section-button'
+                  />
+
                 </div>
                   <p className="section-p">
                       A supportive network full of talented and enthusiastic contributors to web3. The Fang Gang community as a whole has established itself as one of the most welcoming ones.
