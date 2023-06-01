@@ -222,7 +222,7 @@ li {
   color: #fff;
   /* height: 116px; */
   padding: 10px 5% 0px 5%;
-  margin-left: -50px;
+/*   margin-left: -50px; */
   margin-top: 5px;
   width: 90%;
   z-index: 100;
@@ -282,7 +282,7 @@ li {
   width: 30%;
   display: flex;
   justify-content: flex-end;
-  margin: 0 -100px 0 0;
+/*   margin: 0 -100px 0 0; */
 }
 
 #nav-buttons .nav-social-icons {
