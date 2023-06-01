@@ -1325,7 +1325,7 @@ footer,
 #poap {
   align-self: flex-end;
   transform: scale(1.2);
-  margin-bottom: 10px;
+  margin-bottom: -5px;
 }
 
 #cfw_discord {
