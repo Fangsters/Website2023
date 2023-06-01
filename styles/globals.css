@@ -2045,25 +2045,31 @@ footer,
     width: 100%;
   }
 
-  /* #claim-options{
+  #claim-options{
         flex-flow: column;
-    } */
+    }
 
-  /* #claim-header a {
+  #claim-header a {
     width: 40%;
-  } */
+  }
 
   #claim-header input {
-/*     width: 40%; */
+    width: 40%;
     margin: 0 0.5rem;
   }
 
   #claim-options > div {
     margin: 1rem;
+    width: 80%;
   }
 
   #claim-options > div > a {
-    padding: 2rem;
+    padding: 0.5rem;
+    font-size: large;
+  }
+
+  #claim-btn {
+    font-size: larger;
   }
 
   .section-copy {
@@ -2570,6 +2576,7 @@ footer,
     flex-direction: column;
     width: 80%;
     flex-wrap: nowrap;
+    margin-bottom: -4rem;
   }
 
   #claim-header input {
