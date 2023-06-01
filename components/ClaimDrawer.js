@@ -258,6 +258,7 @@ const ClaimDrawer = ({ web3, handleToggleClaimDrawer, claimDrawerActive}) => {
                         <h3>Uh oh! It looks like you don't have any fangsters yet!</h3>
                         <a
                             href="https://opensea.io/collection/fanggangnft"
+                            target="_blank"
                         >
                             JOIN
                         </a>
