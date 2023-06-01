@@ -277,7 +277,7 @@ const ClaimDrawer = ({ web3, handleToggleClaimDrawer, claimDrawerActive}) => {
                                 onClick={() => handleSelectMax()}
                                 className='claim-options-button'
                             >
-                                SELECT MAX (${unclaimedFangs.length})
+                                SELECT MAX ({unclaimedFangs.length})
                             </a>
                             <a
                                 
