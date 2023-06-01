@@ -14,7 +14,7 @@ body {
   max-width: 100vw;
   /* width: 100%; */
   height: 100%;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
 }
 
 .center-btn {
@@ -222,7 +222,8 @@ li {
   color: #fff;
   /* height: 116px; */
   padding: 10px 5% 0px 5%;
-  margin: 0;
+  margin-left: -50px;
+  margin-top: 5px;
   width: 90%;
   z-index: 100;
   /* background-color: #6950D0; */
@@ -281,6 +282,7 @@ li {
   width: 30%;
   display: flex;
   justify-content: flex-end;
+  margin: 0 -100px 0 0;
 }
 
 #nav-buttons .nav-social-icons {
@@ -745,7 +747,7 @@ li {
   width: 80%;
   overflow-x: scroll;
   padding: 1rem;
-  margin: 5rem auto 1rem;
+  margin: 2rem auto 1rem;
 }
 
 #current_fangs::-webkit-scrollbar {
@@ -768,9 +770,9 @@ li {
 }
 
 #current_fangs img {
-  width: 250px;
-  height: 250px;
-  margin: 1rem 3rem 1rem 0;
+  width: 150px;
+  height: 150px;
+  margin: 1rem 1rem 1rem 0;
   border-radius: 25px;
   box-sizing: border-box;
 }
@@ -782,12 +784,12 @@ li {
 .already-claimed {
   background: rgba(60, 60, 60, 0.5);
   background-size: cover;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   position: absolute;
   display: flex;
   top: 0;
-  margin: 2rem 3rem 1rem 0;
+  margin: 2rem 1rem 1rem 0;
   border-radius: 25px;
   box-sizing: border-box;
   align-items: center;
@@ -797,7 +799,7 @@ li {
 .claimed-text {
   background-color: black;
   width: 100%;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -812,16 +814,17 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column !important;
 }
 
 .claim-options-button {
   font-family: 'Karla';
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 35px;
   /* identical to box height */
-  margin-right: 1rem;
+  margin: 0rem 0.5rem 2rem 0.5rem;
   letter-spacing: -0.02em;
   display: flex;
   color: #ffffff;
@@ -835,14 +838,14 @@ li {
   display: flex;
   align-items: center;
   width: 254px;
-  height: 79px !important;
+  height: 55px !important;
   width: 121px;
   height: 44px;
 
   font-family: 'Karla';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 20px;
   line-height: 47px;
   letter-spacing: -0.02em;
   background: #6950d0;
@@ -2045,9 +2048,13 @@ footer,
     width: 100%;
   }
 
-/*   #claim {
+  /* #claim {
     height: 15rem;
   } */
+
+  #claim-inputs-wrap {
+    width: 90%;
+  }
 
   #claim-options{
         flex-flow: column;
@@ -2064,17 +2071,27 @@ footer,
 
   #claim-options > div {
     margin: 1rem;
-    width: 80%;
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
   }
 
-  #claim-options > div > a {
+  #claim-options >div .claim-options-button:first-child {
+    margin-bottom: 1rem;
+  }
+
+  #claim-options >div .claim-options-button:last-child {
+    margin-bottom: 2rem;
+  }
+
+  /* #claim-options > div > a {
     padding: 0.5rem;
     font-size: large;
-  }
+  } */
 
-  #claim-btn {
+  /* #claim-btn {
     font-size: larger;
-  }
+  } */
 
   .section-copy {
     min-width: 100vw;
@@ -2090,10 +2107,6 @@ footer,
     left: unset !important;
   }
   
-/*   #tram {
-    image-rendering: optimizeQuality;
-  } */
-
   /* a.section-button{
         padding: 1rem 3rem;
     } */
@@ -2576,17 +2589,28 @@ footer,
     /* background-size: contain; */
   }
 
-/*   #wallet-connect {
+/* 
+  #wallet-connect {
     display: flex;
     margin: 80px 0px -50px 130px;
     padding: 1.2rem 0.4rem 0.4rem 0.4rem;
   } */
 
+  /* #wallet-connect {
+    width: 245px;
+    height: 35px;
+    margin: 5rem;
+    align-content: center;
+    justify-content: center;
+    background: #282429;
+    border-radius: 8px;
+  } */
+
   #claim-inputs-wrap {
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     flex-wrap: nowrap;
-    margin-bottom: -4rem;
+    /* margin-bottom: -4rem; */
   }
 
   #claim-header input {
