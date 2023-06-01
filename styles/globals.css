@@ -2045,9 +2045,9 @@ footer,
     width: 100%;
   }
 
-  #claim {
+/*   #claim {
     height: 15rem;
-  }
+  } */
 
   #claim-options{
         flex-flow: column;
