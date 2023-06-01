@@ -1852,6 +1852,8 @@ footer,
   }
 
   #sidewalk {
+    width: 250vw;
+    position: absolute;
     bottom: unset;
   }
 
