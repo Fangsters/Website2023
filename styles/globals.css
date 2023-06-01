@@ -2045,6 +2045,10 @@ footer,
     width: 100%;
   }
 
+  #claim {
+    height: 15rem;
+  }
+
   #claim-options{
         flex-flow: column;
     }
@@ -2570,6 +2574,12 @@ footer,
     padding-top: 6rem;
     height: 100vh;
     /* background-size: contain; */
+  }
+
+  #wallet-connect {
+    position: absolute;
+    margin: 45px 0px 0px -130px;
+    padding: 0.8rem 0rem 0rem 0rem;
   }
 
   #claim-inputs-wrap {
