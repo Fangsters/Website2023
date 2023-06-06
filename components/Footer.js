@@ -62,7 +62,7 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-          <a href="" target="_blank">
+          <a href="https://app.manifold.xyz/c/howlinfromnewfangcity" target="_blank">
             <Image id='poap' src='/images/fangster_footer.png' width={269} height={108} />
           </a>
         <div id='copyright'>
