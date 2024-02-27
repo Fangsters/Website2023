@@ -57,7 +57,7 @@ const AwooStudios = () => {
 
                     <FangBtn
                       label="DISCOVER"
-                      linkTo="https://linktr.ee/awoostudios"
+                      linkTo="https://side.xyz/fanggang"
                       extraClasses='section-button'
                     />
 
