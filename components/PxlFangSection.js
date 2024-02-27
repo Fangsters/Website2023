@@ -86,7 +86,7 @@ const PxlFangsSection = (props) => {
             </h2>
             <PxlMascot placement={'mobile'} />
             <div className="copy-btns">
-              <FangBtn label="JOIN" linkTo="https://opensea.io/collection/pxlfangs" extraClasses="section-button" />
+              <FangBtn label="JOIN" linkTo="https://magiceden.io/collections/ethereum/0x30917a657ae7d1132bdca40187d781fa3b60002f" extraClasses="section-button" />
               <FangBtn label="CLAIM" extraClasses="section-button" passedFunction={() => handleToggleClaimDrawer()} />
               <FangBtn label={'PLAY'} extraClasses="section-button" passedFunction={() => handleToggleFangRunnerDrawer()} />
             </div>
