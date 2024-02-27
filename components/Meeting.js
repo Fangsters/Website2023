@@ -89,7 +89,7 @@ const MeetSection = () => {
 
                             <FangBtn 
                                 label="JOIN"
-                                linkTo="https://opensea.io/collection/fanggangnft"
+                                linkTo="https://magiceden.io/collections/ethereum/0x9d418c2cae665d877f909a725402ebd3a0742844"
                                 extraClasses='section-button'
                             />
 
