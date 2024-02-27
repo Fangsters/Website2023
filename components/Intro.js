@@ -10,7 +10,7 @@ const IntroSection = () => {
 
                     {/* https://codepen.io/folaad/pen/YvmRpz */}
                     <div class="wrapper">
-                    <a class="cta" href="https://opensea.io/collection/fanggangnft" target="_blank">
+                    <a class="cta" href="https://magiceden.io/collections/ethereum/0x9d418c2cae665d877f909a725402ebd3a0742844" target="_blank">
                         <span>JOIN</span>
                         <span>
                             <svg width="40px" height="43px" viewBox="0 0 66 43">
