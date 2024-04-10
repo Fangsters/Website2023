@@ -13,7 +13,6 @@ import MeetSection from '@/components/Meeting'
 import PxlFangsSection from '@/components/PxlFangSection'
 import GearSection from '@/components/GearUpSection';
 import Join from '@/components/Join';
-import NewFangCity from '@/components/NewFangCity';
 import AwooStudios from '@/components/AwooStudios';
 import OurPartners from '@/components/OurPartners';
 import Footer from '@/components/Footer';
