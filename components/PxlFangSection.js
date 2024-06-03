@@ -91,7 +91,7 @@ const PxlFangsSection = (props) => {
               <FangBtn label={'PLAY'} extraClasses="section-button" passedFunction={() => handleToggleFangRunnerDrawer()} />
             </div>
             <p className="raised">To expand the Fangverse we introduced PxlFangs, a first of its kind pixelated side collection. Every Fangster has a PxlFangster attached, claimable for free.</p>
-            <p>With PxlFangs you’ll get access to exclusive skins in some of the most popular metaverse projects, passive $AWOO income and more.</p>
+            <p>With PxlFangs you’ll get access to exclusive skins in some of the most popular metaverse projects and more.</p>
             <p>To accompany this expansion we also released the arcade game Fang Runner.</p>
           </div>
 
